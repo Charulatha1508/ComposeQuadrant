@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    QuadrantLayout(Modifier.padding(16.dp))
+                    QuadrantLayout()
                 }
             }
         }
